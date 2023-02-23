@@ -1,3 +1,3 @@
 #/bin/bash
 
-rm -rf /home/ubuntu/SnapShot/*
+rm -rf /home/ec2-user/*

@@ -1,5 +1,5 @@
 #!/bin/bash
 #stop existing file
-pkill node
-killall -9 node 
-rm -rf /home/ec2-user/*
+sudo pkill node
+sudo killall -9 node 
+sudo rm -rf /home/ec2-user/*

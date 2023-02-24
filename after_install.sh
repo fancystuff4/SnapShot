@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo mv -Rrp /home/node_modules /home/ec2-user/node_modules
+sudo cp -Rrp /home/node_modules /home/ec2-user/node_modules
 
 sudo chmod -R 777 /home/ec2-user
 
@@ -8,4 +8,4 @@ sudo chmod -R 777 /home/ec2-user
 
 cd /home/ec2-user
 
-npm -f install
+npm i

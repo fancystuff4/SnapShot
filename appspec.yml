@@ -6,7 +6,7 @@ files:
 hooks:
     ApplicationStop: 
     - location: application_stop.sh
-      timeout: 300
+      timeout: 800
     AfterInstall:
     - location: after_install.sh
       timeout: 1000

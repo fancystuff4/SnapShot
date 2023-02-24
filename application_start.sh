@@ -2,16 +2,16 @@
 
 sudo chmod -R 777 /home/ubuntu/SnapShot
 
-cd /home/ubuntu/SnapShot
+sudo cd /home/ubuntu/SnapShot
 
-npm i 
+sudo npm i 
 
-npm run build
+sudo npm run build
 
-pm2 start npm -- start
+sudo pm2 start npm -- start
 
-pm2 list 
+sudo pm2 list 
 
-pm2 startup 
+sudo pm2 startup 
 
-pm2 save
+sudo pm2 save

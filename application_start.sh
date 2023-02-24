@@ -1,5 +1,5 @@
 #!/bin/bash
-#nnn
+#nn
 
 sudo cd /home/ec2-user
 

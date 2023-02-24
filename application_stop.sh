@@ -3,3 +3,4 @@
 sudo cd /home/ec2-user/SnapShot/
 sudo pm2 kill
 sudo rm -rf /home/ec2-user/SnapShot/*
+sudo rm -rf .g*

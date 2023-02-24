@@ -1,2 +1,2 @@
-#/bin/bash
-echo 'Hi'
+#!/bin/bash
+npm i /home/ec2-user/Snapshot/ 

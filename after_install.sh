@@ -6,4 +6,4 @@ sudo chmod -R 777 /home/ec2-user
 
 cd /home/ec2-user
 
-npm -f install
+npm i

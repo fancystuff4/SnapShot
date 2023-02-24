@@ -2,6 +2,5 @@
 #nn
 
 cd /home/ec2-user
-
-pm2 -f start src/App.js
-
+pm2 kill
+pm2 start npm -- start 

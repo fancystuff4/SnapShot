@@ -1,6 +1,6 @@
 #!/bin/bash
 #nn
 
-sudo cd /home/ec2-user
+cd /home/ec2-user
 
-sudo pm2 start npm -- start
+pm2 start npm -- start

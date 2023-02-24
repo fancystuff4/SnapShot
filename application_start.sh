@@ -1,5 +1,8 @@
 #!/bin/bash
 #nnn
+
+npm i /home/ec2-user/Snapshot/
+
 sudo cd /home/ec2-user/SnapShot
 
-pm2 start npm -- start
+sudo pm2 start npm -- start
